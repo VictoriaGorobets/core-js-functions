@@ -51,7 +51,7 @@ function getFunctionBody(func) {
  *
  */
 function getArgumentsCount(funcs) {
-  return funcs.length;
+  return funcs.map((el) => el.length);
 }
 
 /**
